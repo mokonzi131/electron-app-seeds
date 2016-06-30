@@ -1,0 +1,28 @@
+{
+  "name": "electron-app-seeds",
+  "version": "1.0.0",
+  "description": "Scaffolding for Electron apps",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mokonzi131/electron-app-seeds.git"
+  },
+  "keywords": [
+    "Electron",
+    "TypeScript",
+    "Angular2"
+  ],
+  "author": "Michael Landes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mokonzi131/electron-app-seeds/issues"
+  },
+  "homepage": "https://github.com/mokonzi131/electron-app-seeds#readme",
+  "devDependencies": {
+    "electron-prebuilt": "^1.2.5"
+  }
+}
