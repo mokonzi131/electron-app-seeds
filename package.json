@@ -2,8 +2,10 @@
   "name": "electron-app-seeds",
   "version": "1.0.0",
   "description": "Scaffolding for Electron apps",
-  "main": "main.js",
+  "main": "app/main.js",
   "scripts": {
+    "tsc": "tsc",
+    "typings": "typings",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "electron ."
   },
@@ -23,6 +25,8 @@
   },
   "homepage": "https://github.com/mokonzi131/electron-app-seeds#readme",
   "devDependencies": {
-    "electron-prebuilt": "^1.2.5"
+    "electron-prebuilt": "^1.2.5",
+    "typescript": "^1.8.10",
+    "typings": "^1.3.1"
   }
 }
