@@ -3,7 +3,7 @@
         "module": "commonjs",
         "sourceMap": true,
         "noImplicitAny": true,
-        "outDir": "app",
+        "outDir": "build",
         "target": "es6",
         "moduleResolution": "node",
         "emitDecoratorMetadata": true,
